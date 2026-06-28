@@ -1,0 +1,57 @@
+:root {
+    --beige: #F5E6D3;
+    --cafe: #5C3A2E;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.logocafe{
+    width: 10rem;
+    height: 7rem;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--beige);
+
+}
+
+nav a {
+    text-decoration: none;
+
+    
+}
+
+.izq,.der{
+    display: flex;
+    gap: 10rem;
+}
+
+.der{
+    margin-left: auto;
+}
+
+
+
+.hero{
+    background-image: url(https://img.magnific.com/foto-gratis/espresso-rodeado-granos-cafe-esparcidos-superficie-oscura_91128-4609.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size:cover;
+    /* position: relative; */
+    /* height: 4.1rem; */
+}
