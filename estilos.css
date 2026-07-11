@@ -3,7 +3,7 @@
     --cafe: #5C3A2E;
     --oscuro: #fecc8a;
     --blanco: #ffffff;
-    --beigeoscuro:#EFD8BC;
+    --beigeoscuro: #EFD8BC;
 }
 
 html {
@@ -28,7 +28,7 @@ main {
     background-color: var(--beige);
     margin: 0;
     padding: 0;
-    
+
 }
 
 .logocafe {
@@ -84,7 +84,7 @@ nav a {
     /* espacio para la onda superior */
     padding-bottom: 20rem;
     /* espacio para la onda inferior */
-    
+
 }
 
 
@@ -162,27 +162,33 @@ nav a {
 .top-categories h2 {
     text-align: center;
     margin-top: 0rem;
-    
+
 }
 
 .top-categories {
     text-align: center;
-font-size: 2rem;}
+    font-size: 2rem;
+}
 
-    .top-categories p {
-        font-size: 1.6rem;}
+.top-categories p {
+    font-size: 1.6rem;
+}
 
-.top-categories-items{
+.top-categories-items {
     display: flex;
-    justify-content: center;   /* centra los cuadros */
-    gap: 3rem;                 /* espacio entre ellos */
+    justify-content: center;
+    /* centra los cuadros */
+    gap: 3rem;
+    /* espacio entre ellos */
     margin-top: 5rem;
     justify-content: space-around;
     width: 100%;
     height: 30rem;
 }
 
-.top-categories-items .cafe,.americano,.cappuccino{
+.top-categories-items .cafe,
+.americano,
+.cappuccino {
     display: flex;
     flex-direction: column;
     width: 28rem;
@@ -190,74 +196,80 @@ font-size: 2rem;}
     background-color: #fff;
     border-radius: 1rem;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .15);
 }
 
-.cafe{
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG');
+.cafe {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG');
     background-size: cover;
     background-position: center;
-    
-    
+
+
 }
 
-.americano{
-    background-image:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBcEpb52GP235A-v0ZeYLdjTa8k--Wp-4u9yXXC4dx8dBaxzXJQKgI2u5n&s=10://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIT8PBqJUOTRRBuByNSACHEH2JfVbsdwjnsvz-ujos2ksA4sk-Xpr5lnrU&s=10');
+.americano {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBcEpb52GP235A-v0ZeYLdjTa8k--Wp-4u9yXXC4dx8dBaxzXJQKgI2u5n&s=10://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIT8PBqJUOTRRBuByNSACHEH2JfVbsdwjnsvz-ujos2ksA4sk-Xpr5lnrU&s=10');
     background-size: cover;
     background-position: center;
-    
-    
+
+
 }
 
-.cappuccino{
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz_CXq42Yu2Vbl_JgyvVlyeGiO1TD9d5jwNHe8X9x5iBRiWsESF0QXEQ&s=10');
+.cappuccino {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz_CXq42Yu2Vbl_JgyvVlyeGiO1TD9d5jwNHe8X9x5iBRiWsESF0QXEQ&s=10');
     background-size: cover;
     background-position: center;
-    
+
 }
 
-.top-categories-items p{
+.top-categories-items p {
     font-size: 3rem;
     color: var(--blanco);
     margin-bottom: 2rem;
     margin-top: auto;
 }
 
-.top-categories-items a{
+.top-categories-items a {
     text-decoration: none;
     color: var(--blanco);
     font-size: 1.6rem;
     font-weight: bold;
     margin-top: auto;
 }
+
 .top-categories-section {
     padding: 5rem 0;
     background-color: var(--beige);
 }
 
 
-.top-categories-items2{
+.top-categories-items2 {
     display: flex;
-    justify-content: center;   /* centra los cuadros */
-    gap: 3rem;                 /* espacio entre ellos */
+    justify-content: center;
+    /* centra los cuadros */
+    gap: 3rem;
+    /* espacio entre ellos */
     margin-top: 5rem;
     justify-content: space-around;
     width: 100%;
     height: 40rem;
 }
 
-.top-categories-items2 .mocha,.lavender,.caramel{
+.top-categories-items2 .mocha,
+.lavender,
+.caramel {
     display: flex;
     flex-direction: column;
     width: 28rem;
+    height: 36rem;
     padding: 2rem;
     background-color: var(--beigeoscuro);
     border-radius: 1rem;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .15);
 }
 
-.top-categories-items2 img{
+.top-categories-items2 img {
     width: 100%;
     height: 15rem;
     object-fit: contain;
@@ -265,11 +277,84 @@ font-size: 2rem;}
     margin-bottom: 2rem;
 }
 
-.likes{
+
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.price a {
+    text-decoration: none;
+    color: var(--blanco);
+    background-color: var(--cafe);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.top-categories-items2 p {
+    font-size: 2rem;
+    color: var(--cafe);
+    margin-bottom: 2rem;
+    margin-top: auto;
+}
+
+
+.likes {
     text-align: center;
     border-radius: 1rem;
     background-color: var(--blanco);
     color: var(--cafe);
     padding: 0.5rem;
-    width: 5rem;
+    width: 10rem;
+    font-size: 1rem;
+}
+
+
+.top-categories-items3 {
+    display: flex;
+    justify-content: center;
+    /* centra los cuadros */
+    gap: 3rem;
+    /* espacio entre ellos */
+    margin-top: 5rem;
+    justify-content: space-around;
+    width: 100%;
+    height: 40rem;
+}
+
+
+.top-categories-items3 img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin:0rem;
+}
+.top-categories-items3 .blog1,
+.blog2,
+.blog3 {
+    width: 28rem;
+    height: 36rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--beigeoscuro);
+    border-radius: 1.8rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .15);
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.footer {
+    display: flex;
+    background-color: var(--cafe);
+    color: var(--blanco);
+    padding: 5rem 0;
+    text-align: center;
+    justify-content: space-between;
 }
