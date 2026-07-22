@@ -71,7 +71,7 @@ nav a {
 
 .hero {
     position: relative;
-    background-image: url('backhero.png');
+    background-image: url('../images/backhero.png');
     background-size: cover;
     background-position: center;
     min-height: 40rem;
