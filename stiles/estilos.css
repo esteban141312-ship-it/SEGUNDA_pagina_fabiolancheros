@@ -356,7 +356,7 @@ nav a {
     color: var(--blanco);
     padding: 5rem 0;
     text-align: center;
-    justify-content: space-between;
+    justify-content:space-around
 }
 
 
@@ -427,11 +427,33 @@ nav a {
         height: 20rem;
     }
 
-    .footer{
+    /* .footer{
         flex-direction: column;
         align-items: center;
         text-align: center;
         gap: 3rem;
-    }
+    } */
+
+}
+
+.footer a{
+   text-decoration: none;
+    color: var(--blanco);
+    
+
+}
+
+.contenido a{
+    display: block;
+    flex-direction: column;
+        align-items:center;
+        text-align: center;
+        gap: 3rem;
+
+}
+
+.top-categories-section a {
+    text-decoration: none;
+    color: var(--cafe);
 
 }
